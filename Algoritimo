@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string>
+#include <iostream>
+
+using namespace std;
+int main(){
+	
+	char palavra[]={"olaMundo"};
+	int a=0, e=0, i=0, o=0, u=0;
+	int x;
+	
+	for (x=0;palavra[x] != '\0';x++){
+		if (palavra[x]=='a'){
+			a++;
+		}
+		if (palavra[x]=='e'){
+			e++;
+		}
+		if (palavra[x]=='i'){
+			i++;
+		}
+		if (palavra[x]=='o'){
+			o++;
+		}
+		if (palavra[x]=='u'){
+			u++;
+		}
+	}
+	cout<<"qnt de O:" << o;
+}
