@@ -5,9 +5,12 @@
 using namespace std;
 int main(){
 	
-	char palavra[]={"olaMundo"};
+	char palavra[40];
 	int a=0, e=0, i=0, o=0, u=0;
 	int x;
+	
+	cout<<"Digite a Palavra: ";
+	cin>> palavra;
 	
 	for (x=0;palavra[x] != '\0';x++){
 		if (palavra[x]=='a'){
@@ -26,5 +29,14 @@ int main(){
 			u++;
 		}
 	}
-	cout<<"qnt de O:" << o;
+	cout<<" Quantidade de A: "<< a <<endl;
+	cout<<endl;
+	cout<<" Quantidade de E: "<< e <<endl;
+	cout<<endl;
+	cout<<" Quantidade de I: "<< i <<endl;
+	cout<<endl;
+	cout<<" Quantidade de O: "<< o <<endl;
+	cout<<endl;
+	cout<<" Quantidade de U: "<< u <<endl;
+	cout<<endl;
 }
